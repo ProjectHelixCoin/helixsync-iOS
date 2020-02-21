@@ -31,11 +31,11 @@
 #import "NSString+Bitcoin.h"
 #import "BigIntTypes.h"
 
-#define DASH_PUBKEY_ADDRESS      76
-#define DASH_SCRIPT_ADDRESS      16
-#define DASH_PUBKEY_ADDRESS_TEST 140
+#define DASH_PUBKEY_ADDRESS      40
+#define DASH_SCRIPT_ADDRESS      13
+#define DASH_PUBKEY_ADDRESS_TEST 128
 #define DASH_SCRIPT_ADDRESS_TEST 19
-#define DASH_PRIVKEY             204
+#define DASH_PRIVKEY             212
 #define DASH_PRIVKEY_TEST        239
 
 #define DASH_MESSAGE_MAGIC @"DarkCoin Signed Message:\n"
