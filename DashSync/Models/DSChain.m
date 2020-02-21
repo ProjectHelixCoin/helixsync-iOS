@@ -96,7 +96,9 @@ static checkpoint testnet_checkpoint_array[] = {
 // blockchain checkpoints - these are also used as starting points for partial chain downloads, so they need to be at
 // difficulty transition boundaries in order to verify the block difficulty at the immediately following transition
 static checkpoint mainnet_checkpoint_array[] = {
-    {       0, "79a3c45d6e2760efb4d6de76d34b1f4833ba919bc114e1da0f671b1700a78f08", 1531496589, 0x207fffffu, "", "" },//dash
+    {           0, "79a3c45d6e2760efb4d6de76d34b1f4833ba919bc114e1da0f671b1700a78f08", 1531496589, 0x207fffffu,  "", ""}, //dash
+    {           1, "6103a794040cd5c2a2dce252d49dc01b2e42358cb44bbd3089b040ea8437b25e", 1535888722, 0x207fffffu,  "", ""},
+    {         500, "000000000002576180e507670cbcc6f90110f450a09619969daca80db4c99db2", 1535912845, 0x207fffffu,  "", ""}
 
 };
 

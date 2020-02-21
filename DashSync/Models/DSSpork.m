@@ -88,7 +88,7 @@
     
 -(BOOL)checkSignature:(NSData*)signature {
 
-    if (self.chain.protocolVersion < 70209) {
+    if (self.chain.protocolVersion < 37415) {
         return [self checkSignature70208Method:signature];
     } else {
         DSECDSAKey * messagePublicKey = [DSECDSAKey keyRecoveredFromCompactSig:signature andMessageDigest:self.sporkHash];
